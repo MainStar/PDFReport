@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test"  verbose="1">
+
+    <listeners>
+        <listener class-name="listener.PDFReport"/>
+    </listeners>
+
+    <test name="first">
+        <classes>
+            <class name="tests.FirstTest"/>
+        </classes>
+    </test>
+    <test name="second">
+        <classes>
+            <class name="tests.SecondTest"/>
+        </classes>
+    </test>
+</suite>
